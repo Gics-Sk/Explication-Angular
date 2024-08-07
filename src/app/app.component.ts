@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'tuto-angular';
+  title = 'Angular Tutoriel';
+  receiveMessage(message:string){
+    alert(message);
+  }
 }
